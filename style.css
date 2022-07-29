@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.container{
+    background-image: url("./assets/bg.png");
+    height: 100vh;
+    width: 100vw;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding-left: 20px;
+    justify-content: center;
+}
+.navbar img{
+    width: 60%;
+}
+.grow-list{
+    flex: auto;
+}
+.line{
+    background-color: white;
+    width: 2px;
+    height: 7vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.list{
+    display: flex;
+}
+.grow-list ul{
+    list-style-type: none;
+    /* background-color: aqua; */
+}
+.grow-list ul li{
+    margin: 0px 40px;
+}
+button{
+    background-color: #BA0CC5;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+.button-small{
+    padding: 5px 15px;
+    margin-right: 50px;
+}
+
+.hero{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+.hero h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.hero p{
+    font-size: 25px;
+}
+.button-large{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 80px;
+}
+button:hover{
+    background-color: #EEA6B2;
+    color: black;
+    border: 2px solid black;
+}
